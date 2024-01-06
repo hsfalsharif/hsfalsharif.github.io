@@ -6,7 +6,10 @@
 #portrait_img {
     width: 20%;
     height: auto;
-    display: inline-block; *display: inline; zoom: 1; vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: top;
 }
 
 #menu-bar {
@@ -24,10 +27,17 @@
 
 #menu-bar a {
     color: white; // TODO: Make the color the same as that of the theme here
-    padding: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3.5px;
+    padding-bottom: 3.5px;
     text-decoration: none;
 }
 
+li a {
+    font-size: 25px;
+}
+
 li a:hover {
-    background-color: #111111; // TODO: Make the color the same as that of the theme here
+    background-color: #514f4f; // TODO: Make the color the same as that of the theme here
 }

@@ -14,11 +14,27 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
+figure, figcaption, footer, hgroup,
+menu, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+//nav {
+  //margin: 0;
+  //padding: 10x;
+  //border: 0;
+  //font: inherit;
+  //vertical-align: baseline;
+//}
+
+header {
+  margin: 0;
+  padding: 25px;
   border: 0;
   font: inherit;
   vertical-align: baseline;
@@ -191,7 +207,7 @@ blockquote {
 }
 
 
-ul, ol, dl {
+ol, dl {
   margin-bottom: 15px
 }
 
